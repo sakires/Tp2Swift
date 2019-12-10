@@ -126,10 +126,27 @@
                                     <action selector="buSelectEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lng-FT-U39"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rWK-Fi-z91">
+                                <rect key="frame" x="183" y="564" width="50" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mode auto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6o-j2-Geh">
+                                <rect key="frame" x="180" y="528" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRs-oT-TUb">
+                                <rect key="frame" x="20" y="83" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.71871356989791724" green="1" blue="0.8217411495489626" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="rvN-yg-5n7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="03X-Cc-5Yf"/>
+                            <constraint firstItem="G6o-j2-Geh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="180" id="3Bc-ZG-f1i"/>
+                            <constraint firstItem="rWK-Fi-z91" firstAttribute="top" secondItem="G6o-j2-Geh" secondAttribute="bottom" constant="15" id="3D1-Op-17K"/>
                             <constraint firstItem="rvN-yg-5n7" firstAttribute="leading" secondItem="Ra2-6x-Vy3" secondAttribute="trailing" constant="10" id="3OM-LK-uB9"/>
                             <constraint firstItem="Ra2-6x-Vy3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="4ZK-D4-bCy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wh1-Tf-hwB" secondAttribute="trailing" constant="10" id="4vL-JD-Ygx"/>
@@ -139,21 +156,27 @@
                             <constraint firstItem="gUU-2X-YN3" firstAttribute="width" secondItem="Ra2-6x-Vy3" secondAttribute="width" id="883-X2-pfO"/>
                             <constraint firstItem="Iv1-Kw-IPH" firstAttribute="leading" secondItem="eaA-7j-TIr" secondAttribute="trailing" constant="10" id="8fh-JQ-WUF"/>
                             <constraint firstItem="3X6-3r-itp" firstAttribute="top" secondItem="rvN-yg-5n7" secondAttribute="bottom" constant="10" id="CVY-g1-ch5"/>
+                            <constraint firstItem="BRs-oT-TUb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DLU-dp-917"/>
                             <constraint firstItem="wSy-nk-FwI" firstAttribute="width" secondItem="Ra2-6x-Vy3" secondAttribute="width" id="F4q-Mr-ccU"/>
                             <constraint firstItem="mTr-k9-0RE" firstAttribute="leading" secondItem="Iv1-Kw-IPH" secondAttribute="trailing" constant="10" id="F54-E4-wlN"/>
                             <constraint firstItem="gUU-2X-YN3" firstAttribute="height" secondItem="Ra2-6x-Vy3" secondAttribute="height" id="F8c-Ia-DzO"/>
                             <constraint firstItem="wSy-nk-FwI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Fkv-PN-hGo"/>
                             <constraint firstItem="eaA-7j-TIr" firstAttribute="width" secondItem="Ra2-6x-Vy3" secondAttribute="width" id="GWU-ad-9q6"/>
                             <constraint firstItem="Iv1-Kw-IPH" firstAttribute="height" secondItem="Ra2-6x-Vy3" secondAttribute="height" id="K1p-Ah-wiA"/>
+                            <constraint firstItem="rWK-Fi-z91" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="183" id="KGT-Kk-F3b"/>
                             <constraint firstItem="rvN-yg-5n7" firstAttribute="width" secondItem="Ra2-6x-Vy3" secondAttribute="width" id="LRe-VZ-5gw"/>
                             <constraint firstItem="3X6-3r-itp" firstAttribute="width" secondItem="Ra2-6x-Vy3" secondAttribute="width" id="SMY-n1-f6n"/>
                             <constraint firstItem="3X6-3r-itp" firstAttribute="height" secondItem="Ra2-6x-Vy3" secondAttribute="height" id="XaE-Wa-LRf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G6o-j2-Geh" secondAttribute="trailing" constant="152" id="Y0J-5j-XQP"/>
                             <constraint firstItem="wSy-nk-FwI" firstAttribute="height" secondItem="Ra2-6x-Vy3" secondAttribute="height" id="a4y-xJ-yCY"/>
                             <constraint firstItem="eaA-7j-TIr" firstAttribute="top" secondItem="gUU-2X-YN3" secondAttribute="bottom" constant="10" id="ayI-Kn-mTF"/>
                             <constraint firstItem="Wh1-Tf-hwB" firstAttribute="height" secondItem="Ra2-6x-Vy3" secondAttribute="height" id="b5b-GG-bLO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BRs-oT-TUb" secondAttribute="trailing" constant="20" id="bNo-bc-OuV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rWK-Fi-z91" secondAttribute="trailing" constant="183" id="bl6-fB-baz"/>
                             <constraint firstItem="gUU-2X-YN3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="dBG-fb-Bjf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mTr-k9-0RE" secondAttribute="trailing" constant="10" id="dcZ-BR-AOV"/>
                             <constraint firstItem="Wh1-Tf-hwB" firstAttribute="top" secondItem="wSy-nk-FwI" secondAttribute="bottom" constant="10" id="fkY-rB-AWC"/>
+                            <constraint firstItem="rWK-Fi-z91" firstAttribute="top" secondItem="Iv1-Kw-IPH" secondAttribute="bottom" constant="100" id="ht0-z8-DSO"/>
                             <constraint firstItem="mTr-k9-0RE" firstAttribute="top" secondItem="Wh1-Tf-hwB" secondAttribute="bottom" constant="10" id="jz9-l2-iDV"/>
                             <constraint firstItem="3X6-3r-itp" firstAttribute="leading" secondItem="gUU-2X-YN3" secondAttribute="trailing" constant="10" id="kNw-dj-QOl"/>
                             <constraint firstItem="Ra2-6x-Vy3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="kkC-ZV-hn1"/>
@@ -169,6 +192,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="autoPlaySwitch" destination="rWK-Fi-z91" id="klR-Cu-Oed"/>
+                        <outlet property="bu1" destination="Ra2-6x-Vy3" id="WDp-2c-HQh"/>
+                        <outlet property="bu2" destination="rvN-yg-5n7" id="78R-9n-nDX"/>
+                        <outlet property="bu3" destination="wSy-nk-FwI" id="iGS-jj-0LJ"/>
+                        <outlet property="bu4" destination="gUU-2X-YN3" id="1dw-2s-Ehw"/>
+                        <outlet property="bu5" destination="3X6-3r-itp" id="jOf-2U-Iwj"/>
+                        <outlet property="bu6" destination="Wh1-Tf-hwB" id="p5F-sG-Evv"/>
+                        <outlet property="bu7" destination="eaA-7j-TIr" id="9qa-Pk-bvP"/>
+                        <outlet property="bu8" destination="Iv1-Kw-IPH" id="LH6-M9-PGU"/>
+                        <outlet property="bu9" destination="mTr-k9-0RE" id="sco-mS-DZ1"/>
+                        <outlet property="labelJoueur" destination="BRs-oT-TUb" id="zmj-Ck-TYp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
